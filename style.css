@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font:24px 'Roboto';
+    background-color: #fdf9edc5;
+    color: #000000;
+}
+
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.bio img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.info {
+    margin-left: 40px;
+}
+
+.info h3 {
+    margin-top: 40px;
+}
+
+.info p {
+    color: #4f4f4f;
+}
+
+.info span {
+    margin: 0 18px
+}
+
+.bio {
+    display: flex;
+    padding: 0
+}
+
+.hobby {
+    border-radius: 20px;
+    background-color: #cae3ffc2;
+}
+
+
+.job {
+    border-radius: 20px;
+    background-color: #c9f9dab1;
+}
+
+.connect {
+    border-radius: 20px;
+    background-color: #d7cefab8;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #3b72ff;
+    font-size: 26px;
+
+}
+
+.btn {
+    background-color: #ffa42c;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    transition: all .2s;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    padding: 18px 42px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li{
+    margin-top: 10px;
+}
+
+
+.table {
+    width: 70%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 2px solid #4f60fce8;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 650px) {
+    .bio {
+        display: block;
+        text-align: center;
+    }
+}
